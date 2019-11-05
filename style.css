@@ -13,9 +13,13 @@ footer {
   min-height: 15vh;
 }
 
+header {
+  font-size: 1.5em;
+}
+
 main {
   background-color: #d9eeec;
-  padding: 0 10vw;
+  padding: 1vh 10vw;
   display: flex;
   flex-direction: row;
 }
@@ -30,6 +34,14 @@ h2 {
   padding-top: 3vh;
 }
 
+h4 {
+  margin: 1vh 0 0 0;
+}
+
+h4:hover {
+  cursor: pointer;
+}
+
 img {
   max-width: 200px;
   max-height: 200px;
@@ -37,4 +49,16 @@ img {
 
 aside {
   margin: 10vh 0 0 10vh;
+}
+
+aside p {
+  font-size: 0.8em;
+  margin: 1vh;
+}
+
+@media only screen and (max-width: 750px) {
+  main {
+    flex-direction: column;
+    padding-bottom: 10vh;
+  }
 }
