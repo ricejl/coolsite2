@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  max-height: 100vh;
+}
+
+header,
+footer {
+  background-color: #3c70a4;
+  color: white;
+  text-align: center;
+  min-height: 15vh;
+}
+
+main {
+  background-color: #d9eeec;
+  padding: 0 10vw;
+  display: flex;
+  flex-direction: row;
+}
+
+article {
+  margin: 0 10vh;
+}
+
+h2 {
+  border-top: solid 3vh #da9833;
+  margin-top: 8vh;
+  padding-top: 3vh;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+aside {
+  margin: 10vh 0 0 10vh;
+}
